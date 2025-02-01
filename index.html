@@ -72,6 +72,7 @@
 						<li class="active"><a href="index.html">ACCUEIL</a></li>
 						<li class="active"><a href="#fh5co-event">LIEUX</a></li>
 						<li class="active"><a href="#fh5co-gallery">NOUS</a></li>
+						<li class="active"><a href="#fh5co-info">INFO</a></li>
 						<li class="active"><a href="#fh5co-equipe">NOTRE EQUIPE</a></li>
 						<li class="active"><a href="#fh5co-services">TO DO</a></li>
 					</ul>
@@ -192,6 +193,57 @@
 					</ul>		
 				</div>
 			</div>
+		</div>
+	</div>
+
+<div id="fh5co-info" class="fh5co-section-gray">
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
+			<h2>Informations pratiques</h2>
+		</div>
+<-- {% for event in site.events[site.context] %} -->
+  <section class="container content-section {% cycle 'text-left', 'text-right' %}">
+    <div class="row">
+      <div class="col-lg-7 col-lg-offset-{% cycle 2, 3 %} col-sm-offset-2 col-sm-8">
+        <h2>
+          Dress Code
+          <br>
+         <--  <small>
+            {{ event.date }} | {{ event.time }}
+          </small> -->
+        </h2>
+<--
+        <div class="row">
+          <address class="col-xs-8 text-left">
+            <strong>{{ event.location_name }}</strong><br>
+            <a href="{{ event.google_maps_url }}">
+              {{ event.address1 }}<br>
+              {{ event.address2 }}<br>
+            </a>
+          </address>
+
+          <dl class="col-xs-4 text-right">
+            <dt>Attire</dt>
+            <dd>{{ event.attire }}</dd>
+          </dl>
+
+        </div> -->
+
+        <p>Pour ce jour si spécial, nous vous invitons à réserver le blanc à la mariée et le vert sauge aux demoiselles et garçons d’honneur. Si possible, nous vous serions reconnaissants d’éviter le noir.</p>
+        <--
+        {% if event.transportation %}
+          <p><em>{{ event.transportation }}</em></p>
+        {% endif %}
+
+        {% if event.shuttle %}
+          <p><em>{{ event.shuttle }}</em></p>
+        {% endif %} -->
+
+      </div>
+    </div>
+  </section>
+<-- {% endfor %} -->
 		</div>
 	</div>
   
