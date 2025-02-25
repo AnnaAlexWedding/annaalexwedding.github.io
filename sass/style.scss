@@ -460,7 +460,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: rgba(0, 0, 0, .4);
+		background: #FFF9C4;
 	}
 	@media screen and (max-width: $screen-sm) {
 		height: inherit;
@@ -727,12 +727,12 @@ h1, h2, h3, h4, h5, h6, figure {
 				@include transition(.5s);
 				@include border-radius(7px);
 
-				background: rgba(0, 0, 0, .2);	
+				background: #FFF9C4;
 
 			}
 			&:hover {
 				&:before {
-					background: rgba(0, 0, 0, .5);
+					background: #FFF9C4;
 				}
 			}
 			
@@ -1318,7 +1318,7 @@ form {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: rgba(0, 0, 0, .4);
+		background: #FFF9C4;
 	}
 	.fh5co-heading {
 		h2 {
