@@ -157,16 +157,16 @@ h1, h2, h3, h4, h5, h6, figure {
 	margin: 0 0 20px 0;
 }
 ::-webkit-selection {
-  color: $brand-white;
+  color: #FFF9C4;
   background: $brand-primary;
 }
 
 ::-moz-selection {
-  color: $brand-white;
+  color: #FFF9C4;
   background: $brand-primary;
 }
 ::selection {
-  color: $brand-white;
+  color: #FFF9C4;
   background: $brand-primary;
 }
 
@@ -326,6 +326,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	width: 100%;
 	float: left;
 	position: relative;
+	background: #FFF9C4;
 }
 
 .fh5co-video {
@@ -343,7 +344,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		height: 90px;
 		display: table;
 		text-align: center;
-		background: $brand-white;
+		background: #FFF9C4;
 		
 		-webkit-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
 		-moz-box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75);
